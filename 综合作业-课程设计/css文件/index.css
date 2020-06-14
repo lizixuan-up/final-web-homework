@@ -1,0 +1,192 @@
+
+/*head*/
+.header-two {
+    height: 65px;
+}
+
+.logo {
+    padding-top: 0;
+    float: left;
+}
+
+.nav {
+    float: left;
+    margin-top: 5px;
+}
+
+.nav li {
+    float: left;
+    width: 122px;
+    text-align: center;
+    border-right: 1px none black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.nav .last {
+    border: none;
+}
+
+.nav a {
+    color: rgba(0, 0, 0, 1);
+}
+.form {
+    margin-top: 34px;
+}
+
+.form * {
+    float: left;
+}
+
+.form .search {
+    width: 147px;
+    height: 11px;
+    border: 1px solid rgba(0,164,255,1);
+    padding: 9px;
+}
+
+.form .submit {
+    width: 31px;
+    height: 31px;
+    border: 1px solid rgba(0,164,255,1);
+    background: rgba(0,164,255,1) url(../images/search.png) no-repeat center center;
+    cursor: pointer;
+}
+
+:focus {
+    outline: none;
+}
+/* middle */
+.middle{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 1);
+    background-color:rgba(0,164,255,1);
+    padding-top: 20px;
+}
+.middle-top {
+    background-color: rgba(0,164,255,1);
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid rgba(218, 218, 218, 1);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-info {
+    float: right;
+}
+
+.header-info li {
+    margin-left: 27px;
+    float: left;
+}
+
+.header-info a {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 1);
+}
+
+.iphone {
+    padding-left: 17px;
+    background: url(../images/iphone.png) no-repeat left center;
+}
+
+.weixin {
+    padding-left: 24px;
+    background: url(../images/weixin.png) no-repeat left center;
+}
+
+/* banner */
+.banner {
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    background-color:rgba(128,128,128,1);
+}
+
+.banner-item {
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/banner2.png) no-repeat center center;
+}
+
+.banner-item .text {
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 222px;
+    left: 6%;
+    width: 106px;
+    height: 106px;
+    opacity: 0.2;
+}
+
+.next {
+    left: auto;
+    right: 5%;
+}
+
+/* 今日精品推荐 */
+.introduce{
+    background-color: rgba(0,164,255,1);
+    padding-top: 20px;
+}
+.text-two{
+    margin-left: 50px;
+    font-size:25px;
+    font-family:SimSun;
+    font-weight:bold;
+    color:blue; 
+    font-style: italic;
+    
+}
+.list{
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    background: url(../images/精品推荐.png) repeat center center;
+
+}
+.list a{
+    color:red;
+    font-style: italic;
+    font-size: 30px;
+}
+.list p{
+    font-size:14px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(121,121,121,1);
+    line-height:28px;
+}
+
+/* 版权 */
+.bottom {
+    height: 50px;
+    padding-top: 18px;
+    text-align: center;
+    background: rgba(58, 58, 58, 1);
+}    
+.text-fore{
+
+    color: white;
+}
